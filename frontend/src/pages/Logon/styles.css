@@ -1,0 +1,79 @@
+.logon-container {
+  width: 100%;
+  max-width: 1120px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logon-container section.form {
+  width: 100%;
+  min-height: 40vh;
+  max-width: 30vw;
+  margin-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logon-container section.form form {
+  margin: 3em 0;
+  width: 100%;
+}
+
+.logon-container section.form form h1 {
+  font-size: 2em;
+  margin: 0 0 1em 0;
+}
+
+.logon-container section.form form input {
+  font-size: 1.3em;
+}
+
+.logon-container section.form form a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+  color: #41414d;
+  font-size: 1.4em;
+  text-decoration: none;
+  font-weight: 500;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.logon-container section.form form a:hover {
+  -webkit-filter: opacity(0.9);
+          filter: opacity(0.9);
+}
+
+.logon-container section.form form a svg {
+  margin: 0 1em 0 0;
+}
+
+.logon-container > img {
+  width: 80%;
+}
+/*# sourceMappingURL=styles.css.map */

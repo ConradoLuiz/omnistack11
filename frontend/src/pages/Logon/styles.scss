@@ -1,0 +1,61 @@
+.logon-container{
+    width: 100%;
+    max-width: 1120px;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section.form {
+        width: 100%;
+        min-height: 40vh;
+        max-width: 30vw;
+        margin-right: 10%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        form{
+            margin: 3em 0;
+            width: 100%;
+            
+
+            h1{
+                font-size: 2em;
+                margin: 0 0 1em 0;
+            }
+            input{
+                font-size: 1.3em;
+            }
+
+            a{
+                
+                display: flex;
+                align-items: center;
+                margin-top: 3em;
+                color: #41414d;
+                font-size: 1.4em;
+                text-decoration: none;
+                font-weight: 500;
+                transition: opacity 0.2s;
+
+                &:hover{
+                    filter: opacity(0.9);
+                }
+
+                svg{
+                    margin: 0 1em 0 0;
+                }
+            }
+            
+        }
+    }
+
+    & > img{
+        width: 80%;
+    }
+}
